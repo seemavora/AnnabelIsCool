@@ -1,6 +1,6 @@
 export default [{
     name: 'Make Friends',
-    tagline: 'We use ML algorithms to pair individuals!',
+    tagline: 'Connect with students near your university who have similar interests!',
     image: require('../../assets/images/summer.jpeg'),
 }, {
     name: 'Chat Away',
@@ -8,7 +8,7 @@ export default [{
     image: require('../../assets/images/summer.jpeg'),
 }, {
     name: 'Find Study Groups',
-    tagline: 'Want to find someone to study with?',
+    tagline: 'Want to find someone to study with? Join Today!',
     image: require('../../assets/images/summer.jpeg'),
 },
 ];

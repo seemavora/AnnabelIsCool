@@ -7,7 +7,7 @@ const StyledButton = (props) => {
     const { content, onPress, color, textColor } = props;
 
     return (
-        <View style={styles.container}>
+        <View style={[styles.container]}>
             <Pressable
                 style={[styles.button, { backgroundColor: color }]}
             // onPress={() => {

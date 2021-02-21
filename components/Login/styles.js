@@ -4,46 +4,49 @@ const styles = StyleSheet.create({
     fpBackground: {
         width: '100%',
         height: Dimensions.get('window').height,
-        backgroundColor: '#f1fefe',
+        backgroundColor: '#bacff7',
     },
     buttonGroup: {
-        marginTop: '45%'
+        marginTop: '40%',
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'center',
     },
     titles: {
         textAlign: 'center',
-        marginTop: '18%',
+        marginTop: '20%',
         width: '100%',
         alignItems: 'center',
         justifyContent: 'center',
     },
     topText: {
         width: '100%',
-        alignItems: 'center',
-        fontSize: 38,
+        fontSize: 34,
         fontWeight: '300',
-        color: '#5c5e62'
+        color: '#f4f6fa',
+        textAlign: 'center',
     },
     text: {
         width: '100%',
         paddingTop: 10,
         textAlign: 'center',
-        fontSize: 18,
-        fontWeight: '300',
-        color: '#5c5e62'
+        fontSize: 15,
+        fontWeight: '200',
+        // color: '#171A20CC',
     },
     input: {
-        marginTop: 25,
-        marginLeft: 30,
-        marginRight: 30,
+        marginTop: 15,
+        marginLeft: 55,
+        marginRight: 55,
         borderRadius: 20,
         height: 40,
         borderColor: '#00001a',
-        borderWidth: 1,
+        borderWidth: .5,
         paddingLeft: 20,
-        fontSize: 18,
+        fontSize: 15,
     },
     inputGroup: {
-        paddingTop: '10%',
+        paddingTop: '20%',
     },
 });
 

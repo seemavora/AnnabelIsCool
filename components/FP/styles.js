@@ -4,10 +4,13 @@ const styles = StyleSheet.create({
     fpBackground: {
         width: '100%',
         height: Dimensions.get('window').height,
-        backgroundColor: '#f1fefe',
+        // backgroundColor: '#f1fefe',
+        backgroundColor: '#bacff7',
     },
     buttonGroup: {
-        marginTop: '10%'
+        marginTop: '50%',
+        flexDirection: 'row',
+        width: '75%',
     },
     titles: {
         textAlign: 'center',
@@ -19,16 +22,18 @@ const styles = StyleSheet.create({
     topText: {
         width: '100%',
         alignItems: 'center',
+        textAlign: 'center',
         fontSize: 38,
         fontWeight: '300',
-        color: '#5c5e62'
+        color: '#f4f6fa',
     },
     bottomText: {
         marginTop: '65%',
         width: '100%',
+        textAlign: 'center',
         fontSize: 38,
         fontWeight: '600',
-        color: '#5c5e62'
+        color: '#f4f6fa',
     },
 
 });

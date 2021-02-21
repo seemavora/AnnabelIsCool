@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Text, TextInput } from 'react-native';
+import { View, Text, TextInput, Pressable } from 'react-native';
 import styles from './styles';
 import StyledButton from '../StyledButton';
 
@@ -39,26 +39,17 @@ class Login extends Component {
                 </View>
 
                 <View style={styles.buttonGroup}>
-                    <View
-                        style={{
-                            borderBottomColor: 'black',
-                            borderBottomWidth: 1,
-                            margin: 20,
-                        }}
+                    <StyledButton
+                        content={'Go Back'}
+                        color='#f4f6fa'
+                        textColor='#171A20CC'
                     />
                     <StyledButton
                         content={'Login'}
                         color='#171A20CC'
-                        textColor='#FFFFFF'
+                        textColor='#f4f6fa'
                     />
                 </View>
-                <View
-                    style={{
-                        borderBottomColor: 'black',
-                        borderBottomWidth: 1,
-                        margin: 20,
-                    }}
-                />
             </View >
         )
     }

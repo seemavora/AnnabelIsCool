@@ -8,16 +8,9 @@ const FP = (props) => {
         <View style={styles.fpBackground}>
             <View style={styles.titles}>
                 <Text style={styles.topText}>Welcome To</Text>
-                <Text style={styles.bottomText}>PEGGU+</Text>
+                <Text style={styles.bottomText}>WADDLE</Text>
             </View>
             <View style={styles.buttonGroup}>
-                <View
-                    style={{
-                        borderBottomColor: 'black',
-                        borderBottomWidth: 1,
-                        margin: 20,
-                    }}
-                />
                 <StyledButton
                     content={'Register Here'}
                     color='#171A20CC'
@@ -29,13 +22,13 @@ const FP = (props) => {
                     textColor='#171A20'
                 />
             </View>
-            <View
+            {/* <View
                 style={{
                     borderBottomColor: 'black',
                     borderBottomWidth: 1,
                     margin: 20,
                 }}
-            />
+            /> */}
         </View >
     )
 };

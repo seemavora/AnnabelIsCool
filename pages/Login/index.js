@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { View, Text, TextInput, Pressable } from 'react-native';
 import styles from './styles';
-import StyledButton from '../StyledButton';
+import StyledButton from '../../components/StyledButton/index';
 
 class Login extends Component {
     state = {

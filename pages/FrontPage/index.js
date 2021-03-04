@@ -1,7 +1,8 @@
 import React from 'react';
 import { View, Text, Pressable } from 'react-native';
 import styles from './styles';
-import StyledButton from '../StyledButton';
+import StyledButton from '../../components/StyledButton/index';
+import FeatureList from '../../components/FeatureOverview/FeatureList/index'
 
 const FP = (props) => {
     return (
@@ -22,6 +23,9 @@ const FP = (props) => {
                     textColor='#171A20'
                 />
             </View>
+            {/* <View>
+                <FeatureList></FeatureList>
+            </View> */}
             {/* <View
                 style={{
                     borderBottomColor: 'black',
